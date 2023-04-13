@@ -1,5 +1,6 @@
 \documentclass[9pt]{extarticle}
 
+\renewcommand{\familydefault}{\sfdefault}
 \usepackage{geometry}
 \usepackage[table]{xcolor}
 {{if $.Cfg.Debug.ShowFrame}}\usepackage{showframe}{{end}}
